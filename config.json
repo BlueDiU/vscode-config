@@ -1,0 +1,42 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 1.4,
+  "editor.mouseWheelZoom": true,
+  "editor.fontFamily": "'CaskaydiaCove Nerd Font','MesloLGSDZ NF','Comic Sans MS','DaddyTimeMono NF', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "synthwave84.brightness": 0.1,
+  // disable ES6
+  "javascript.suggestionActions.enabled": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  // desactivar barra horizontal
+  "editor.wordWrap": "on",
+
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.embeddedLanguageFormatting": "auto",
+  "prettier.htmlWhitespaceSensitivity": "css",
+  "prettier.insertPragma": false,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.proseWrap": "preserve",
+  "prettier.quoteProps": "as-needed",
+  "prettier.requirePragma": false,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": false,
+  "prettier.tabWidth": 2,
+  "prettier.printWidth": 65,
+  "explorer.confirmDelete": false,
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  "liveSassCompile.settings.autoprefix": [],
+  "workbench.productIconTheme": "el-vsc-v1-icons",
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "editor.fontSize": 13
+}
