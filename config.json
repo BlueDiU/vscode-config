@@ -1,8 +1,6 @@
 {
-  "workbench.iconTheme": "material-icon-theme",
-  "window.zoomLevel": 1.4,
   "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "'CaskaydiaCove Nerd Font','MesloLGSDZ NF','Comic Sans MS','DaddyTimeMono NF', Consolas, 'Courier New', monospace",
+
   "editor.fontLigatures": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -14,6 +12,7 @@
   "editor.formatOnSave": true,
   // desactivar barra horizontal
   "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
 
   "prettier.arrowParens": "always",
   "prettier.bracketSpacing": true,
@@ -36,7 +35,120 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   "liveSassCompile.settings.autoprefix": [],
+
+  //colors themes
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "storage.type",
+        "settings": {
+          "foreground": "#C792EA"
+        }
+      },
+      {
+        "scope": "support.class",
+        "settings": {
+          "foreground": "#FFCB6B"
+          /* "foreground": "#4EC9B0" */
+        }
+      },
+      {
+        "scope": "keyword.control",
+        "settings": {
+          //"foreground": "#68c0fb",
+          "foreground": "#4dd5ff",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.operator.assignment.js",
+        "settings": {
+          "foreground": "#e25dcc",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "storage.modifier.async.js",
+        "settings": {
+          "foreground": "#68c0fb"
+        }
+      },
+      {
+        "scope": "entity.name.function",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.name.tag.js",
+        "settings": {
+          "foreground": "#9CCFD8"
+        }
+      },
+      {
+        "scope": "entity.name.tag",
+        "settings": {
+          "foreground": "#9CCFD8"
+        }
+      },
+      {
+        "scope": "entity.name.tag.tsx",
+        "settings": {
+          "foreground": "#9CCFD8"
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#545454"
+        }
+      }
+
+      //#85E89D
+      //#9CCFD8
+      //#EBBCBA
+      //#817C9C
+      //#C792EA
+      //#a397e7
+      //#89DDFF
+      //#9CCFD8
+    ]
+  },
+
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "cSpell.language": "en,es",
+  "editor.fontSize": 13,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Windows PowerShell": {
+      "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+    }
+  },
+  "tabnine.experimentalAutoImports": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.productIconTheme": "el-vsc-v1-icons",
-  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
-  "editor.fontSize": 13
+  "editor.fontFamily": "JetBrainsMono Nerd Font, CaskaydiaCove Nerd Font, Consolas, 'Courier New', monospace",
+  "window.zoomLevel": 1.4,
+  "workbench.colorTheme": "Default Material Dark Theme"
 }
